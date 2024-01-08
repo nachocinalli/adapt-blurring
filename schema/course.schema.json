@@ -1,0 +1,28 @@
+{
+  "$anchor": "bookmarking-course",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$patch": {
+    "source": {
+      "$ref": "course"
+    },
+    "with": {
+      "properties": {
+        "_blurring": {
+          "type": "object",
+          "title": "Blurring",
+          "default": {},
+          "required": [],
+          "properties": {
+            "_isEnabled": {
+              "type": "boolean",
+              "title": "Enable",
+              "description": "Controls whether the Blurring extension is enabled or disabled",
+              "default": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

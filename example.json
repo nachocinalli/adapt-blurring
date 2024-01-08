@@ -1,0 +1,11 @@
+{
+  "_comment": "add to course.json",
+  "_blurring": {
+    "_isEnabled": true,
+    "_selector": ".blurring",
+    "_button": {
+      "buttonText": "Hint",
+      "ariaLabel": "Show hint"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "adapt-blurring",
+  "version": "1.0.0",
+  "framework": ">=v5.31.11",
+  "homepage": "https://github.com/nachocinalli/adapt-blurring",
+  "bugs": "https://github.com/nachocinalli/adapt-blurring",
+  "extension": "blurring",
+  "displayName": "Blurring",
+  "description": "An extension to blur content on Adapt",
+  "main": "/js/adapt-blurring.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPL-3.0",
+  "targetAttribute": "_blurring",
+  "private": true
+}
