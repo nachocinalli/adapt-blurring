@@ -19,6 +19,32 @@
               "title": "Enable",
               "description": "Controls whether the Blurring extension is enabled or disabled",
               "default": true
+            },
+            "_selector": {
+              "type": "string",
+              "title": "Selector",
+              "description": "The selector used to identify elements that should be blurred.",
+              "default": ".blurring"
+            },
+            "_button": {
+              "type": "object",
+              "title": "Button",
+              "default": {},
+              "required": [],
+              "properties": {
+                "buttonText": {
+                  "type": "string",
+                  "title": "Button Text",
+                  "description": "The text to display on the button.",
+                  "default": "Hint"
+                },
+                "ariaLabel": {
+                  "type": "string",
+                  "title": "Aria Label",
+                  "description": "The aria label to use for the button.",
+                  "default": "Show Hint"
+                }
+              }
             }
           }
         }

@@ -27,6 +27,41 @@
                   "inputType": "Checkbox",
                   "validators": [],
                   "help": "Controls whether the Blurring extension is enabled or disabled."
+                },
+                "_selector": {
+                  "type": "string",
+                  "required": true,
+                  "default": ".blurring",
+                  "title": "Selector",
+                  "inputType": "Text",
+                  "validators": [],
+                  "help": "The selector used to identify elements that should be blurred."
+                },
+                "_button": {
+                  "type": "object",
+                  "required": false,
+                  "legend": "Button",
+                  "properties": {
+                    
+                    "buttonText": {
+                      "type": "string",
+                      "required": true,
+                      "default": "Hint",
+                      "title": "Button text",
+                      "inputType": "Text",
+                      "validators": [],
+                      "help": "The text to display on the button."
+                    }, 
+                    "ariaLabel": {
+                      "type": "string",
+                      "required": true,
+                      "default": "Show hint",
+                      "title": "Aria label",
+                      "inputType": "Text",
+                      "validators": [],
+                      "help": "The aria label to use for the button."
+                    }
+                  }
                 }
               }
             }
